@@ -42,10 +42,5 @@ This is implemented with the `PlatformLocale()` interface and conditional import
 - **Internationalization / Localization**: [flutter_localizations](https://flutter.dev/docs/development/accessibility-and-localization/internationalization)
 - **Persistence**: [shared_preferences](https://pub.dev/packages/shared_preferences)
 
-# Getting Started
-
-**Code Generator**: This app uses build_runner to generate code for freezed.
-
-```bash
-# flutter pub run build_runner build --delete-conflicting-outputs
-```
+# Author 
+>Bagirishya Rwema Dominique
