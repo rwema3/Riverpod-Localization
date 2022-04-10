@@ -1,0 +1,10 @@
+# Flutter Localizations Config File
+
+# Where input files are located
+arb-dir: lib/l10n
+
+# The input file template
+template-arb-file: app_en.arb
+
+# Where generated localizations are placed
+output-localization-file: app_localizations.dart

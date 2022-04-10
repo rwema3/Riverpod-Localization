@@ -1,0 +1,8 @@
+{
+  "helloWorld": "Hello World",
+  "homeExplanation": "The text and date localization of this application will live update when the user changes the language.",
+  "homeExplanation2": "The selected language will be saved to persistence for the next launch.",
+  "@helloWorld": {
+    "description": "The conventional newborn programmer greeting"
+  }
+}
