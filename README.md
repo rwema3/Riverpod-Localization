@@ -34,13 +34,5 @@ A demonstration of using Riverpod for dynamic locale switching in-app, with pers
 The `Platform.locale` property of `dart:io` library only works on mobile. For web, we need to use `dart:html`'s window.navigator.language.
 This is implemented with the `PlatformLocale()` interface and conditional imports.
 
-# Dependencies
-
-- **State Management**: [Riverpod](https://riverpod.dev/)
-- **Immutable State**: [Freezed](https://pub.dev/packages/freezed)
-  - Notice the custom converter used for saving `Locale` **toJson** and **fromJson**. Freezed works with [json_serializable](https://pub.dev/packages/json_serializable) naturally.
-- **Internationalization / Localization**: [flutter_localizations](https://flutter.dev/docs/development/accessibility-and-localization/internationalization)
-- **Persistence**: [shared_preferences](https://pub.dev/packages/shared_preferences)
-
 # Author 
 >Bagirishya Rwema Dominique
