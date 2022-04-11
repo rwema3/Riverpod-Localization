@@ -72,7 +72,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       appBar: AppBar(
         title: const Text('Riverpod Localization'),
       ),
-      body
+      bod
          
          
           
