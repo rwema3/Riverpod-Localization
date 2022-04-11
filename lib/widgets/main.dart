@@ -75,7 +75,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       body: Padding(
         padding: const EdgeInsets.all(12.0),
         child: Row(
-          mainAxisAlignment: MainAxisAlignme
+          mainAxisAlignment: MainAxisAlignm
            
             
                
