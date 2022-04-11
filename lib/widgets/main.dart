@@ -84,7 +84,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text("Platform Locale: " + _platformLocale),
-                    const SizedBox(height: 5
+                    const SizedBox(height: 
                     
                   
                   
