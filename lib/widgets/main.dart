@@ -61,7 +61,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     final DateFormat dateFormat = DateFormat.yMd(ref.read(localeProvider).toString()).add_jms();
 
     String _supportedLocales = ref.read(supportedLocalesProvider).toString();
-    String _platformLocale = ref.read(platformLocaleProvi
+    String _platformLocale = ref.read(platformLocaleProvid
       
 
      
