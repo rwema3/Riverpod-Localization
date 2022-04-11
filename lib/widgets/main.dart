@@ -79,7 +79,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
           children: [
             Expanded(
               child: ConstrainedBox(
-                constraint  
+                constraints  
                  
                    
                   
