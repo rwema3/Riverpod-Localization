@@ -65,7 +65,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     String _currentLocale = ref.watch(localeProvider).toString();
 
     print("Supported locales: " + _supportedLocales);
-    print("Platform Locale: " + _p
+    print("Platform Locale: " + _pl
        
 
      
