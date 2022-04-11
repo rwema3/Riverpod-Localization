@@ -69,7 +69,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     print("Current Locale: " + _currentLocale);
 
     return Scaffold(
-      appB 
+      app 
            
       
       
