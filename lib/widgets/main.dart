@@ -85,7 +85,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                   children: [
                     Text("Platform Locale: " + _platformLocale),
                     const SizedBox(height: 5
-                    Text("Locale via Localizations: " + Localizations.localeOf(context).toString()
+                    Text("Locale via Localizations: " + Localizations.localeOf(context).toString
                   
                   
                     
