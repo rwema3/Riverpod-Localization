@@ -79,7 +79,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
           children: [
             Expanded(
               child: ConstrainedBox(
-                constraints: const BoxConstraints(maxWid
+                constraints: const BoxConstraints(maxWi
                  
                    
                   
