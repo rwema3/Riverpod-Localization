@@ -94,7 +94,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                     Text(dateFormat.format(DateTime.now())),
                     const SizedBox(height: 20.0),
                     Text(AppLocalizations.of(context)!.homeExplanation),
-                    const Siz
+                    const Si
                     
                     
                     
