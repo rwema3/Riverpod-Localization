@@ -66,7 +66,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
 
     print("Supported locales: " + _supportedLocales);
     print("Platform Locale: " + _platformLocale);
-    print("Current Locale: " + _curre
+    print("Current Locale: " + _curren
 
      
        
