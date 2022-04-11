@@ -97,7 +97,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                     const SizedBox(height: 20.0),
                     Text(AppLocalizations.of(context)!.homeExplanation2),
                     const SizedBox(height: 20.0),
-                    const La
+                    const L
                   ],
                 
               )
