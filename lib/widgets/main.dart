@@ -70,7 +70,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Riverpod Localizati
+        title: const Text('Riverpod Localizatio
       
       
          
