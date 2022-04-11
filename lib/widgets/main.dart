@@ -100,5 +100,5 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                     const LanguagePicker(),
                   ],
                 ),
-              ),
+              )
           
