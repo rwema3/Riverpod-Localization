@@ -83,7 +83,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text("Platform Locale: " + _platformLoc
+                    Text("Platform Locale: " + _platformLo
                     
                     
                   
