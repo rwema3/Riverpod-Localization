@@ -81,7 +81,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               child: ConstrainedBox(
                 constraints: const BoxConstraints(maxWidth: 350),
                 child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
+                  mainAxisAlignment: MainAxisAlignment.center
                   
                     
                     
