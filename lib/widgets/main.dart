@@ -78,7 +78,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Expanded(
-              child: ConstrainedBox
+              child: ConstrainedBo
                   
                  
                    
