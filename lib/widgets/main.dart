@@ -62,7 +62,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
 
     String _supportedLocales = ref.read(supportedLocalesProvider).toString();
     String _platformLocale = ref.read(platformLocaleProvider).toString();
-    String   
+    String _  
 
      
      
