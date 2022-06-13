@@ -5,10 +5,6 @@ import 'package:riverpodlocalization/models/locale/locale_state.dart';
 import 'package:riverpodlocalization/widgets/language_picker.dart';
 
 
-
-  @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    // Get supported locales
     List<Locale> _supportedLocales = ref.read(supportedLocalesProvider);
 
     // Watch the current locale and rebuild on change
