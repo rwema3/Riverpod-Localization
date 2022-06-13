@@ -6,16 +6,6 @@ import 'package:riverpodlocalization/widgets/language_picker.dart';
 
 
 
-    return MaterialApp(
-      title: 'Riverpod Localization',
-      localizationsDelegates: AppLocalizations.localizationsDelegates,
-      supportedLocales: _supportedLocales,
-      locale: _locale,
-      home: const HomeScreen(),
-    );
-  }
-}
-
 class HomeScreen extends ConsumerStatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
 
