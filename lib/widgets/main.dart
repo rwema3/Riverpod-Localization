@@ -5,6 +5,7 @@ import 'package:riverpodlocalization/models/locale/locale_state.dart';
 import 'package:riverpodlocalization/widgets/language_picker.dart';
 
 
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
