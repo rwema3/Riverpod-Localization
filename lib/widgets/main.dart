@@ -4,7 +4,6 @@ import 'package:intl/intl.dart';
 import 'package:riverpodlocalization/models/locale/locale_state.dart';
 import 'package:riverpodlocalization/widgets/language_picker.dart';
 
-import 'models/locale/locale_providers.dart';
 
 void main() => runApp(
       const ProviderScope(
