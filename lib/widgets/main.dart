@@ -4,6 +4,9 @@ import 'package:intl/intl.dart';
 import 'package:riverpodlocalization/models/locale/locale_state.dart';
 import 'package:riverpodlocalization/widgets/language_picker.dart';
 
+        child: MyApp(),
+      ),
+    );
 
 class MyApp extends ConsumerWidget {
   const MyApp({Key? key}) : super(key: key);
