@@ -2,9 +2,6 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:intl/intl.dart';
 import 'package:riverpodlocalization/models/locale/locale_state.dart';
-import 'package:riverpodlocalization/widgets/language_picker.dart';
-
-
 
 class HomeScreen extends ConsumerStatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
