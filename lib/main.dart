@@ -47,7 +47,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   void initState() {
     super.initState();
     var widgetsBinding = WidgetsBinding.instance;
-    String _platformLocale = ref.read(platformLocaleProvider).toString();
     String _currentLocale = ref.watch(localeProvider).toString();
 
     print("Supported locales: " + _supportedLocales);
