@@ -47,6 +47,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   void initState() {
     super.initState();
     var widgetsBinding = WidgetsBinding.instance;
+    print("Current Locale: " + _currentLocale);
 
     return Scaffold(
       appBar: AppBar(
