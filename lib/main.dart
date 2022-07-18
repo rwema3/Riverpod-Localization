@@ -48,8 +48,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     super.initState();
     var widgetsBinding = WidgetsBinding.instance;
     if (widgetsBinding != null) {
-      widgetsBinding.addPostFrameCallback((_) async {
-        // Locale Startup Actions
 
     String _supportedLocales = ref.read(supportedLocalesProvider).toString();
     String _platformLocale = ref.read(platformLocaleProvider).toString();
