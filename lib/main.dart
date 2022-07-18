@@ -47,7 +47,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   void initState() {
     super.initState();
     var widgetsBinding = WidgetsBinding.instance;
-                constraints: const BoxConstraints(maxWidth: 350),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
