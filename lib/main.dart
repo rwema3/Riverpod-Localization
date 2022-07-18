@@ -58,6 +58,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     // Create a DateFormat for the current locale
+    final DateFormat dateFormat = DateFormat.yMd(ref.read(localeProvider).toString()).add_jms();
 
     String _supportedLocales = ref.read(supportedLocalesProvider).toString();
     String _platformLocale = ref.read(platformLocaleProvider).toString();
