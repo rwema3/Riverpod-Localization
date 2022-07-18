@@ -47,15 +47,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   void initState() {
     super.initState();
     var widgetsBinding = WidgetsBinding.instance;
-          children: [
-            Expanded(
-              child: ConstrainedBox(
-                constraints: const BoxConstraints(maxWidth: 350),
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text("Platform Locale: " + _platformLocale),
-                    const SizedBox(height: 5),
                     Text("Locale via Localizations: " + Localizations.localeOf(context).toString()),
                     const SizedBox(height: 5),
                     Text("Locale via Riverpod State: " + _currentLocale),
