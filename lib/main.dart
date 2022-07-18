@@ -47,7 +47,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   void initState() {
     super.initState();
     var widgetsBinding = WidgetsBinding.instance;
-        title: const Text('Riverpod Localization'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(12.0),
