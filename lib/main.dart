@@ -47,6 +47,18 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   void initState() {
     super.initState();
     var widgetsBinding = WidgetsBinding.instance;
+    if (widgetsBinding != null) {
+      widgetsBinding.addPostFrameCallback((_) async {
+        // Locale Startup Actions
+        ref.read(localeStateProvider.notifier).initLocale();
+      });
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    // Create a DateFormat for the current locale
+    final DateFormat dateFormat = DateFormat.yMd(ref.read(localeProvider).toString()).add_jms();
 
     String _supportedLocales = ref.read(supportedLocalesProvider).toString();
     String _platformLocale = ref.read(platformLocaleProvider).toString();
