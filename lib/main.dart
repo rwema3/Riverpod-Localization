@@ -47,6 +47,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   void initState() {
     super.initState();
     var widgetsBinding = WidgetsBinding.instance;
+                child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text("Platform Locale: " + _platformLocale),
