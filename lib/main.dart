@@ -27,6 +27,7 @@ class MyApp extends ConsumerWidget {
 
     return MaterialApp(
       title: 'Riverpod Localization',
+      localizationsDelegates: AppLocalizations.localizationsDelegates,
  
 
 }
