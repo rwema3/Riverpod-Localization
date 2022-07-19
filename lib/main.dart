@@ -26,7 +26,6 @@ class MyApp extends ConsumerWidget {
     print("Rebuilding with watched locale: " + _locale.toString());
 
     return MaterialApp(
-      title: 'Riverpod Localization',
  
 
 }
