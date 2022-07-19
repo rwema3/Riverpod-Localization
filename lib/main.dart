@@ -49,10 +49,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     var widgetsBinding = WidgetsBinding.instance;
     if (widgetsBinding != null) {
       widgetsBinding.addPostFrameCallback((_) async {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Riverpod Localization'),
-      ),
       body: Padding(
         padding: const EdgeInsets.all(12.0),
         child: Row(
