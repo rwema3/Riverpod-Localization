@@ -10,7 +10,10 @@ import 'models/locale/locale_providers.dart';
 void main() => runApp(
       const ProviderScope(
         child: MyApp(),
-  @override
+      ),
+    );
+
+c @override
  
 
 }
