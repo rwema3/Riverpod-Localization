@@ -48,5 +48,4 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     super.initState();
     var widgetsBinding = WidgetsBinding.instance;
     if (widgetsBinding != null) {
-      widgetsBinding.addPostFrameCallback((_) async {
 }
