@@ -49,6 +49,12 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     var widgetsBinding = WidgetsBinding.instance;
     if (widgetsBinding != null) {
       widgetsBinding.addPostFrameCallback((_) async {
+            Expanded(
+              child: ConstrainedBox(
+                constraints: const BoxConstraints(maxWidth: 350),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
                     Text("Platform Locale: " + _platformLocale),
                     const SizedBox(height: 5),
                     Text("Locale via Localizations: " + Localizations.localeOf(context).toString()),
