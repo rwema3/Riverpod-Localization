@@ -47,5 +47,4 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   void initState() {
     super.initState();
     var widgetsBinding = WidgetsBinding.instance;
-    if (widgetsBinding != null) {
 }
