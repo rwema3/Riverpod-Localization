@@ -49,6 +49,11 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     var widgetsBinding = WidgetsBinding.instance;
     if (widgetsBinding != null) {
       widgetsBinding.addPostFrameCallback((_) async {
+      body: Padding(
+        padding: const EdgeInsets.all(12.0),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
             Expanded(
               child: ConstrainedBox(
                 constraints: const BoxConstraints(maxWidth: 350),
