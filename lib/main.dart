@@ -53,5 +53,4 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                     const SizedBox(height: 5),
                     Text("Locale via Localizations: " + Localizations.localeOf(context).toString()),
                     const SizedBox(height: 5),
-                    Text("Locale via Riverpod State: " + _currentLocale),
 }
