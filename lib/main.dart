@@ -29,7 +29,6 @@ class MyApp extends ConsumerWidget {
       title: 'Riverpod Localization',
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: _supportedLocales,
-      locale: _locale,
  
 
 }
