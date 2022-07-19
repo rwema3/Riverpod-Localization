@@ -49,6 +49,22 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     var widgetsBinding = WidgetsBinding.instance;
     if (widgetsBinding != null) {
       widgetsBinding.addPostFrameCallback((_) async {
+                    Text("Platform Locale: " + _platformLocale),
+                    const SizedBox(height: 5),
+                    Text("Locale via Localizations: " + Localizations.localeOf(context).toString()),
+                    const SizedBox(height: 5),
+                    Text("Locale via Riverpod State: " + _currentLocale),
+                    const SizedBox(height: 20.0),
+                    Text(AppLocalizations.of(context)!.helloWorld),
+                    const SizedBox(height: 20.0),
+                    Text(dateFormat.format(DateTime.now())),
+                    const SizedBox(height: 20.0),
+                    Text(AppLocalizations.of(context)!.homeExplanation),
+                    const SizedBox(height: 20.0),
+                    Text(AppLocalizations.of(context)!.homeExplanation2),
+                    const SizedBox(height: 20.0),
+                    const LanguagePicker(),
+                  ],
                 ),
               ),
             ),
