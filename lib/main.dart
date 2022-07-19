@@ -30,6 +30,9 @@ class MyApp extends ConsumerWidget {
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: _supportedLocales,
       locale: _locale,
- 
+      home: const HomeScreen(),
+    );
+  }
+}
 
 }
