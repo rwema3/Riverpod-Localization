@@ -13,7 +13,10 @@ void main() => runApp(
       ),
     );
 
-c @override
+class MyApp extends ConsumerWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  @override
  
 
 }
