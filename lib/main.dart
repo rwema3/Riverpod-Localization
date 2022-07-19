@@ -50,5 +50,4 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     if (widgetsBinding != null) {
       widgetsBinding.addPostFrameCallback((_) async {
                     Text("Platform Locale: " + _platformLocale),
-                    const SizedBox(height: 5),
 }
