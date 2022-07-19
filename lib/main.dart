@@ -25,6 +25,7 @@ class MyApp extends ConsumerWidget {
     Locale _locale = ref.watch(localeProvider);
     print("Rebuilding with watched locale: " + _locale.toString());
 
+    return MaterialApp(
  
 
 }
