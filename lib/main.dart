@@ -49,6 +49,10 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     var widgetsBinding = WidgetsBinding.instance;
     if (widgetsBinding != null) {
       widgetsBinding.addPostFrameCallback((_) async {
+    print("Supported locales: " + _supportedLocales);
+    print("Platform Locale: " + _platformLocale);
+    print("Current Locale: " + _currentLocale);
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('Riverpod Localization'),
