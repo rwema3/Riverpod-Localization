@@ -23,8 +23,6 @@ class MyApp extends ConsumerWidget {
 
     // Watch the current locale and rebuild on change
     Locale _locale = ref.watch(localeProvider);
-    print("Rebuilding with watched locale: " + _locale.toString());
-
  
 
 }
