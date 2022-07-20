@@ -89,7 +89,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                     const SizedBox(height: 5),
                     Text("Locale via Riverpod State: " + _currentLocale),
                     const SizedBox(height: 20.0),
-                    Text(AppLocalizations.of(context)!.helloWorld),
                     
                   ],
                 ),
