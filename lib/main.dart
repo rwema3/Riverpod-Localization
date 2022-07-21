@@ -83,7 +83,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text("Platform Locale: " + _platformLocale),
                     Text("Locale via Riverpod State: " + _currentLocale),
                     const SizedBox(height: 20.0),
                     Text(AppLocalizations.of(context)!.helloWorld),
