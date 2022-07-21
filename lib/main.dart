@@ -60,7 +60,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     // Create a DateFormat for the current locale
     final DateFormat dateFormat = DateFormat.yMd(ref.read(localeProvider).toString()).add_jms();
 
-    String _supportedLocales = ref.read(supportedLocalesProvider).toString();
     
     
               const LanguagePicker(),
