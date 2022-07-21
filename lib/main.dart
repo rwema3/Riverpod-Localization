@@ -25,16 +25,6 @@ class MyApp extends ConsumerWidget {
     Locale _locale = ref.watch(localeProvider);
     print("Rebuilding with watched locale: " + _locale.toString());
 
-    return MaterialApp(
-      title: 'Riverpod Localization',
-      localizationsDelegates: AppLocalizations.localizationsDelegates,
-      supportedLocales: _supportedLocales,
-      locale: _locale,
-      home: const HomeScreen(),
-    );
-  }
-}
-
     
               const LanguagePicker(),
                   ],
