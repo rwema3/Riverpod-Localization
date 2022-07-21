@@ -21,9 +21,6 @@ class MyApp extends ConsumerWidget {
     // Get supported locales
     List<Locale> _supportedLocales = ref.read(supportedLocalesProvider);
 
-    // Watch the current locale and rebuild on change
-    Locale _locale = ref.watch(localeProvider);
-    print("Rebuilding with watched locale: " + _locale.toString());
 
     
               const LanguagePicker(),
