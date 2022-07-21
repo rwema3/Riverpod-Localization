@@ -46,7 +46,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   @override
   void initState() {
     super.initState();
-    var widgetsBinding = WidgetsBinding.instance;
   
     
               const LanguagePicker(),
