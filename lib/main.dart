@@ -81,6 +81,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               child: ConstrainedBox(
                 constraints: const BoxConstraints(maxWidth: 350),
                 child: Column(
+                    Text(AppLocalizations.of(context)!.helloWorld),
                     const SizedBox(height: 20.0),
                     Text(dateFormat.format(DateTime.now())),
                     const SizedBox(height: 20.0),
