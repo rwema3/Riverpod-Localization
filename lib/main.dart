@@ -18,9 +18,6 @@ class MyApp extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    // Get supported locales
-    List<Locale> _supportedLocales = ref.read(supportedLocalesProvider);
-
 
     
               const LanguagePicker(),
