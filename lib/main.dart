@@ -81,7 +81,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               child: ConstrainedBox(
                 constraints: const BoxConstraints(maxWidth: 350),
                 child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
                     Text("Locale via Riverpod State: " + _currentLocale),
                     const SizedBox(height: 20.0),
                     Text(AppLocalizations.of(context)!.helloWorld),
