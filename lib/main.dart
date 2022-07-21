@@ -73,8 +73,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
         title: const Text('Riverpod Localization'),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(12.0),
-        ch          const LanguagePicker(),
+        pa          const LanguagePicker(),
                   ],
                 ),
               ),
