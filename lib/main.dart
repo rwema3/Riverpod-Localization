@@ -76,7 +76,9 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
         padding: const EdgeInsets.all(12.0),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
-                Text(dateFormat.format(DateTime.now())),
+          children: [
+            Expanded(
+                    Text(dateFormat.format(DateTime.now())),
                     const SizedBox(height: 20.0),
                     Text(AppLocalizations.of(context)!.homeExplanation),
                     const SizedBox(height: 20.0),
