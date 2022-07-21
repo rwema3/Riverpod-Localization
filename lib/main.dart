@@ -75,6 +75,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       body: Padding(
         padding: const EdgeInsets.all(12.0),
         child: Row(
+                    const SizedBox(height: 20.0),
                     Text(AppLocalizations.of(context)!.homeExplanation2),
                     const SizedBox(height: 20.0),
                     const LanguagePicker(),
