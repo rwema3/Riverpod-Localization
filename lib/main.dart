@@ -68,7 +68,8 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     print("Platform Locale: " + _platformLocale);
     print("Current Locale: " + _currentLocale);
 
-              const LanguagePicker(),
+    return Scaffold(
+                const LanguagePicker(),
                   ],
                 ),
               ),
