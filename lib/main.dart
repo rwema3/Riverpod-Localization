@@ -51,6 +51,11 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       widgetsBinding.addPostFrameCallback((_) async {
         // Locale Startup Actions
         ref.read(localeStateProvider.notifier).initLocale();
+      });
+    }
+  }
+
+  @override
   
     
               const LanguagePicker(),
