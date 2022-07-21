@@ -13,10 +13,6 @@ void main() => runApp(
       ),
     );
 
-class MyApp extends ConsumerWidget {
-  const MyApp({Key? key}) : super(key: key);
-
-
     
               const LanguagePicker(),
                   ],
