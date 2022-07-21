@@ -7,11 +7,6 @@ import 'package:riverpodlocalization/widgets/language_picker.dart';
 
 import 'models/locale/locale_providers.dart';
 
-void main() => runApp(
-      const ProviderScope(
-        child: MyApp(),
-      ),
-    );
 
     
               const LanguagePicker(),
