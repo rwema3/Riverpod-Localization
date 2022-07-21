@@ -78,7 +78,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Expanded(
-              child: ConstrainedBox(
                     Text(dateFormat.format(DateTime.now())),
                     const SizedBox(height: 20.0),
                     Text(AppLocalizations.of(context)!.homeExplanation),
