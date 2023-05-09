@@ -18,3 +18,8 @@ class JsonLocalSync {
     if (!prefs.containsKey(key)) {
       return null;
     }
+
+    String? jsonString = prefs.getString(key);
+    if (jsonString == null) {
+      print('Unable to getString for key: "$key".');
+      return null;
