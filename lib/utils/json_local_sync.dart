@@ -23,3 +23,13 @@ class JsonLocalSync {
     if (jsonString == null) {
       print('Unable to getString for key: "$key".');
       return null;
+    }
+    Map<String, dynamic> value = jsonDecode(jsonString);
+    return value;
+  }
+
+  static Future<bool> delete({required String key}) async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    return await prefs.remove(key);
+  }
+}
