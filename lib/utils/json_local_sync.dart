@@ -14,3 +14,4 @@ class JsonLocalSync {
 
   /// Get a Json object from local persistent storage
   static Future<Map<String, dynamic>?> get({required String key}) async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
