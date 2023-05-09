@@ -10,3 +10,4 @@ class JsonLocalSync {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     String jsonString = json.encode(value);
     return await prefs.setString(key, jsonString);
+  }
