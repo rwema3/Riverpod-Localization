@@ -9,3 +9,4 @@ class JsonLocalSync {
   static Future<bool> save({required String key, required Map<String, dynamic> value}) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     String jsonString = json.encode(value);
+    return await prefs.setString(key, jsonString);
