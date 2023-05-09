@@ -16,3 +16,5 @@ class JsonLocalSync {
   static Future<Map<String, dynamic>?> get({required String key}) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     if (!prefs.containsKey(key)) {
+      return null;
+    }
