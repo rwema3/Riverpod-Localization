@@ -8,3 +8,4 @@ class JsonLocalSync {
   /// Save a Json object to local persistent storage
   static Future<bool> save({required String key, required Map<String, dynamic> value}) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
+    String jsonString = json.encode(value);
