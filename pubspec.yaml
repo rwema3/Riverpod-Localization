@@ -14,7 +14,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl: ^0.17.0
-  flutter_riverpod: ^1.0.0-dev.11
+  flutter_riverpod: ^1.0.1-dev.11
   json_annotation: ^4.1.0
   freezed_annotation: ^0.15.0
   shared_preferences: ^2.0.8
