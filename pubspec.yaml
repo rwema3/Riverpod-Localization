@@ -17,7 +17,7 @@ dependencies:
   flutter_riverpod: ^1.0.1-dev.11
   json_annotation: ^4.1.2
   freezed_annotation: ^0.15.1
-  shared_preferences: ^2.0.8
+  shared_preferences: ^2.1.0
 
 dev_dependencies:
   flutter_test:
